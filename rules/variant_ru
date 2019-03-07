@@ -1,8 +1,8 @@
-<!--typo-birman-start-ru-->
+<!--ru-custom-kd-start-->
         <variant>
           <configItem>
-            <name>typo-birman-ru</name>
-            <description>Russian (Typographic by Ilya Birman)</description>
+            <name>ru-custom-kd</name>
+            <description>Russian (KD Custom)</description>
           </configItem>
         </variant>
-<!--typo-birman-end-ru-->
+<!--ru-custom-kd-end-->
