@@ -1,6 +1,6 @@
 partial default alphanumeric_keys
-xkb_symbols "typo-birman-ru" {
-    name[Group1]= "Russian (Typographic by Ilya Birman)";
+xkb_symbols "ru-custom-kd" {
+    name[Group1]= "Russian (KD Custom)";
 
     // 1st keyboard row
     key <TLDE> { [       Cyrillic_io,       Cyrillic_IO,              NoSymbol,             dead_grave ] }; // "~"
@@ -61,6 +61,6 @@ xkb_symbols "typo-birman-ru" {
     // 5th keyboard row
     key <SPCE> { [             space,             space,          nobreakspace,          nobreakspace  ] }; // " "
 
-    // Adds comma on keypad DELETE key
-    include "kpdl(comma)"
+    // Adds dot on keypad DELETE key
+    include "kpdl(dot)"
 };
